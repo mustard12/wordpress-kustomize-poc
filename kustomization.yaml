@@ -1,4 +1,4 @@
-apiVersion: kustomize.config.k8s.io
+apiVersion: v1
 kind: Kustomization
 secretGenerator:
 - name: mysql-pass
