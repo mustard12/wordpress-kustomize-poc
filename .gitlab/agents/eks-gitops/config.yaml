@@ -1,6 +1,6 @@
 gitops:
   manifest_projects:
-  - id : infograb/assets/eks/wordpress-kubectl
-    default_namespace: wordpress-kubectl
+  - id : mus1/wordpress-kubectl
+    default_namespace: mus-wordpress-kubectl
     paths:
     - glob: '/**/*.yaml'
