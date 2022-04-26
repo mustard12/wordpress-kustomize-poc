@@ -2,5 +2,6 @@ gitops:
   manifest_projects:
   - id : mus1/wordpress-kubectl
     default_namespace: mus-wordpress-kubectl
+    inventory_policy: adopt_all
     paths:
     - glob: '/**/*.yaml'
